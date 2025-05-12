@@ -1,0 +1,11 @@
+.icn img{
+    width: 100%;
+}
+.content img{
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.content{
+    margin: 15px 0;
+} 

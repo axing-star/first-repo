@@ -1,0 +1,58 @@
+/* 第二个页面 */
+body{
+    height: 1000px;
+}
+.tab-list li{
+    float: left;
+    width: 33.33%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+
+}
+
+.current{
+    background-color: white;
+    color: blue;
+}
+.tab-con img{
+    width: 100%;
+}
+
+.content{
+    text-align: center;
+    background-color: #fff;
+    font-size: 14px;
+}
+.content p{
+    font-weight: bold;
+    color: blue;
+}
+.content img{
+    width: 100%;
+}
+
+.returns {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.returns p{
+    font-weight: bold;
+    color: blue;
+}
+.returns img {
+    width: 100%;
+}
+.returns ul li {
+    text-align: left;
+    font-size: 11px;
+    line-height: 40px;
+}
+
+
+.item{
+    text-align: center;
+}
+.item img {
+    width: 100%;
+}

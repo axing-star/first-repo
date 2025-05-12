@@ -1,0 +1,43 @@
+.lb img{ 
+    width: 100%;
+    /* margin-top: 44px; */
+}
+.content-ul{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.content-ul li{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding-top: 20px;
+}
+
+.slider {
+    /* position: relative; */
+    width: 100%; /* 或者设置为具体的宽度 */
+    /* overflow: hidden; */
+    display: flex;
+  }
+  
+  .slides {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+     /* 平滑过渡效果 */
+  }
+  
+  .slide {
+    width: 100%; /* 每张幻灯片占满容器宽度 */
+    flex: 0 0  auto;
+     /* 防止图片被压缩 */
+    display: flex;
+  }
+  
+  .slide img {
+    width: 100%; /* 图片宽度设置为100%，以适应幻灯片宽度 */
+    display: flex;
+  }
